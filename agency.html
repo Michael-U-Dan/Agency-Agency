@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" />
+This layout is designed to adapt to various screen sizes, 
+ensuring a smooth experience on all devices.
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+
+     </script>
+    <style>
+        /* Custom styling for the hero section */
+        .hero {
+            background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+ <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Travel Agency</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- video and audio section> -->
+     <div class="container mt-4">
+  <video class="w-100" controls>
+    <source src="C:\Users\HomePC\Music\This God is Too Good - Nathaniel Bassey ft. Micah Stampley (Lyrics).mp4" 
+    type="video/mp4">
+  </video>
+
+  <div class="container mt-4">
+  <h3>Listen to the Audio</h3>
+  <audio controls class="w-100">
+    <source src="C:\Users\HomePC\Downloads\SINACH-WAY-MAKER-CeeNaija.com_.mp3" type="audio/mpeg">
+
+  </audio>
+</div>
+</div>
+
+
+
+
+
+
+      <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Explore the World</h1>
+            <p>Your dream vacation is just a click away</p>
+            <a href="#destinations" class="btn btn-primary">Start Your Journey</a>
+        <div class="container">
+
+            <!-- adding image section> -->
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://media.istockphoto.com/id/1327486548/photo/nigerian-okra-soup-with-garri.jpg?s=612x612&w=0&k=20&c=AW5kYEgtpxoWw1198IiLQ-cyDj0ieCH9XWTiZU-ZKWI=" 
+      class="img-fluid rounded" alt="Responsive image">
+    </div>
+  </div>
+</div>
+        </div>
+
+    </section>
+
+
+
+     <!-- Destinations Section -->
+    <section id="destinations" class="container py-5">
+        <h2 class="text-center">Top Destinations</h2>
+        <div class="row g-4">
+            <!-- Destination 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="destination1.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris</h5>
+                        <p class="card-text">Explore the city of love, art, and history.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Destination 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="destination2.jpg" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo</h5>
+                        <p class="card-text">Dive into the culture and tech hub of Asia.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- Destination 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="destination3.jpg" class="card-img-top" alt="Destination 3">
+                <div class="card-body">
+                    <h5 class="card-title">Tokyo</h5>
+                    <p class="card-text">Experience the blend of modernity and tradition.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="tours" class="container my-5">
+    <h2 class="text-center mb-4">Tour Packages</h2>
+    <div class="accordion" id="tourAccordion">
+        <!-- Tour 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Paris City Tour
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                    A 5-day tour exploring the best of Paris. Includes a guided Eiffel Tower visit.
+                    <a href="#" class="btn btn-link">View Details</a>
+                </div>
+            </div>
+        </div>
+
+
+          <!-- Tour 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    New York Adventure
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                    Explore iconic landmarks, Broadway shows, and more in New York City.
+                    <a href="#" class="btn btn-link">View Details</a>
+                </div>
+            </div>
+        </div>
+
+
+
+         <!-- Tour 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Tokyo Discovery
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                    A 7-day guided tour of Tokyo, visiting historical sites, shopping districts, and more.
+                    <a href="#" class="btn btn-link">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="destination" class="form-label">Destination of Interest</label>
+            <select class="form-select" id="destination">
+                <option value="paris">Paris</option>
+                <option value="ny">New York</option>
+                <option value="tokyo">Tokyo</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+
+
+<footer class="bg-light text-center py-3">
+    <p>&copy; 2025 Travel Agency | All Rights Reserved</p>
+    <a href="#" class="mx-2">Facebook</a>
+    <a href="#" class="mx-2">Instagram</a>
+    <a href="#" class="mx-2">Twitter</a>
+</footer>
+</body>
+
+
+
+   
